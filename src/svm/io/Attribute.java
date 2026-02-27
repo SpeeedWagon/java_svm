@@ -1,4 +1,4 @@
-package io;
+package svm.io;
 
 public class Attribute{
 	public String attribute_name = "";

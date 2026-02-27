@@ -1,4 +1,4 @@
-package gui;
+package svm.gui;
 
 import java.awt.*;
 import svm.SVM;

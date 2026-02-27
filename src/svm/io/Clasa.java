@@ -1,4 +1,4 @@
-package io;
+package svm.io;
 
 import java.awt.Color;
 

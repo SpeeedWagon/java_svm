@@ -1,10 +1,10 @@
-package gui;
+package svm.gui;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import svm.SVM;
-import alg.*;
+import svm.alg.*;
 
 public class Options extends Dialog implements AdjustmentListener{
 	SVM svm;

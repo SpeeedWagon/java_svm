@@ -4,10 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.net.URL;
-import gui.*;
-import alg.*;
-import tools.*;
-import io.*;
+import svm.gui.*;
+import svm.alg.*;
+import svm.tools.*;
+import svm.io.*;
 
 
 public class SVM extends Frame {
@@ -23,7 +23,7 @@ public class SVM extends Frame {
 	public Options options;
 		
 	public OutputData outd;
-	public InputData ind;
+	public svm.io.InputData ind;
 	
 	public Algorithm algorithm;
          
@@ -56,7 +56,8 @@ public SVM(){
 	options = new Options(this);
 
 	outd = new OutputData(this);	
-	ind = new InputData(this);
+	
+	ind = new svm.io.InputData(this);
 	
     setResizable(false);	
 	setBackground(settings.background_color);

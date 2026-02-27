@@ -1,4 +1,4 @@
-package alg;
+package svm.alg;
 
 public abstract class Algorithm{
 	

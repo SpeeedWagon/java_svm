@@ -1,4 +1,4 @@
-package tools;
+package svm.tools;
 
 import java.awt.*;
 import java.awt.event.*;

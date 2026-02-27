@@ -1,11 +1,11 @@
-package io;
+package svm.io;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import svm.SVM;
-import gui.*;
-import alg.*;
+import svm.gui.*;
+import svm.alg.*;
 
 public class InputData extends Dialog{
 	SVM svm;
@@ -238,7 +238,8 @@ public class InputData extends Dialog{
 			}
 			catch(IOException e) {e.printStackTrace();}
 		}
-	}			
+	}
+
 	
 	public boolean handleEvent(Event e){
 		if(e.id==Event.WINDOW_DESTROY){
